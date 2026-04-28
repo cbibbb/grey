@@ -15,20 +15,25 @@ footer {background:#244f26; color:white; text-align:center; padding:15px;}
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark">
-<div class="container">
-<a class="navbar-brand" href="index.html">Grey Team</a>
-<div class="collapse navbar-collapse">
-<ul class="navbar-nav ms-auto">
-<li><a class="nav-link" href="index.html">Home</a></li>
-<li><a class="nav-link" href="about.html">About</a></li>
-<li><a class="nav-link" href="causes.html">Causes</a></li>
-<li><a class="nav-link active" href="impact.html">Impact</a></li>
-<li><a class="nav-link" href="resources.html">Resources</a></li>
-<li><a class="nav-link" href="help.html">Help</a></li>
-</ul>
-</div>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Grey Team</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="impact.html">Local impact</a></li>
+        <li class="nav-item"><a class="nav-link" href="causes.html">Causes</a></li>
+        <li class="nav-item"><a class="nav-link" href="help.html">How to help</a></li>
+        <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
 <header class="hero">
@@ -49,6 +54,6 @@ Many college students also skip meals because of tuition, rent, and transportati
 <footer>
 <p>Grey Team Project</p>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
